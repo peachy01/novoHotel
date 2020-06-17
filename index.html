@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="" />
+  <link rel="apple-touch-icon" href="" />
+  <link rel="manifest" href="" />
+  <meta name="theme-color" content="#000000" />
+  <meta name="description" content="" />
+  <meta property="og:title" content="" />
+  <meta property="og:site_name" content="" />
+  <meta property="og:url" content="" />
+  <meta property="og:image" content="" />
+  <meta property="og:description" content="" />
+  <link
+    href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/js/all.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./css/index.css">
+  <title>NoVo Tempo Hotels</title>
+  <title>Document</title>
+</head>
+
+<body>
+  <!-- Nav starts here. -->
+  <nav class="navbar navbar-expand-lg px-2 px-md-5 fixed-top position-relative shadow-lg">
+
+    <a class="navbar-brand" href="#">
+      <!-- Remember to link this image correctly in your work -->
+      <img src="./assets/images/logo-nav.png" width="100" class="d-inline-block align-top mt-2 position-absolute"
+        alt="NoVo Tempo">
+    </a>
+
+    <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#navbarText"
+      aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse mt-5 mt-lg-1" id="navbarText">
+      <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+        <li class="nav-item active px-3">
+          <a class="nav-link" href="#">HOTEL OVERVIEW<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item px-3">
+          <a class="nav-link" href="./pages/rooms.html">ROOMS</a>
+        </li>
+        <li class="nav-item px-3">
+          <a class="nav-link" href="./pages/contact.html">CONTACT US</a>
+        </li>
+        <li class="nav-item px-3">
+          <a class="nav-link" href="./pages/facility.html">FACILITIES</a>
+        </li>
+        <!-- <li class="nav-item px-3">
+          <a class="nav-link" href="#">SPA</a>
+        </li> -->
+      </ul>
+      <form class="form-inline d-inline p-2">
+        <button class="text-white" type="button">RESERVE NOW</button>
+      </form>
+    </div>
+
+  </nav>
+  <!-- Nav ends here. -->
+
+
+
+  <!-- Header starts here. -->
+  <header>
+
+    <div class="hero1 d-flex justify-content-end align-items-end p-0">
+      <h4 class="py-3 pl-1 pl-md-3 pr-1 pr-md-5 d-inline ml-auto shadow-lg text-center text-md-left">
+        The Twin faced Lounge with the double water pools
+      </h4>
+    </div>
+
+    <div class="row flex-wrap justify-content-center align-items-end px-3 px-lg-5 py-2 py-lg-4">
+      <form class="col-12 col-lg-7 mt-4 mt-md-0 justify-content-center">
+        <div class="form-row py-2">
+          <h4 class="text-center text-md-left"> MAKE A RESERVATION </h4>
+        </div>
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="inputAddress">From</label>
+            <input type="date" class="form-control" id="inputEmail4" placeholder="Date">
+          </div>
+          <div class="form-group col-md-6">
+            <label for="inputAddress">To</label>
+            <input type="date" class="ml-0 ml-md-3 form-control" id="inputEmail4" placeholder="Date">
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="inputState">Location</label>
+            <select id="inputState" class="form-control">
+              <option selected>Choose...</option>
+              <option>...</option>
+              <option>...</option>
+            </select>
+          </div>
+          <div class="form-group col-md-3">
+            <label for="inputState ">Number of Rooms</label>
+            <select id="inputState" class="form-control ml-0 ml-md-3">
+              <option selected>Choose...</option>
+              <option>...</option>
+              <option>...</option>
+            </select>
+          </div>
+          <div class="form-group col-md-3">
+            <label for="inputState ">Number of Guest</label>
+            <select id="inputState" class="form-control ml-0 ml-md-3">
+              <option selected>Choose...</option>
+              <option>...</option>
+              <option>...</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="inputState">Promo Code (Optional)</label>
+            <input type="number" class="ml-0 ml-md-3 form-control" id="inputEmail4" placeholder="Code">
+          </div>
+        </div>
+       
+      </form>
+      <div class="col-12 col-lg-5 d-flex justify-content-center">
+        <form class="form-inline availability d-inline p-2 mb-5 mt-4 mt-lg-0">
+          <button class="text-white" type="button">Check Availability</button>
+        </form>
+      </div>
+    </div>
+
+    <div class="hero2 d-flex flex-wrap justify-content-center align-items-center px-2 px-md-5 my-4 my-md-5">
+      <div class="">
+        <h2 class="text-center">
+          NOVO TEMPO
+        </h2>
+        <h6 class="text-center">
+          Life of Luxury
+        </h6>
+      </div>
+      <div class="hero2-text mt-4 ml-0 ml-md-4 ml-lg-5">
+        <p>
+          Just as <b>"abrazar el mar"</b> translates to <b>“arms embracing the sea”</b> The Novo Tempo embraces guests with island-inspired luxury. When it’s true translation is “GOOD LIFE”. Spend your days lounging on golden beaches, snorkeling with manta rays or soaring above it all on a helicopter tour. Unwind with a game on one of two championship swimming courses, an indigenous spa ritual or a locally sourced meal. At this luxury Novo resort, every new adventure begins with a Lively spirit.
+        </p>
+      </div>
+      
+    </div>
+
+  </header>
+  <!-- Header ends here. -->
+
+
+
+
+  <!-- Cards section starts here. -->
+  <section class="py-5 px-2 px-lg-5 cards">
+    <div class="d-flex justify-content-center">
+      <h2 class="text-center p-5 d-inline-block my-3">Experience <br/> NoVo</h2>
+    </div>
+    <div class="d-flex flex-wrap justify-content-around">
+       <div class="card shadow mx-2 bg-transparent my-1 my-lg-3" style="width: 18rem;">
+          <img src="./assets/images/card1.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="text-center">INDULGE IN A RESIDENTIAL SUITE</h5>
+            <p class="card-text">Make the best of moment each time you step out of your stressful lifestyle for a moment of relaxation like never before.</p>
+            <a href="#">learn more <i class="fas fa-chevron-right"></i></a>
+          </div>
+        </div>
+       <div class="card shadow bg-transparent my-1 my-lg-3" style="width: 18rem;">
+          <img src="./assets/images/card2.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="text-center">EXCLUSIVE EXPERIENCE</h5>
+            <p class="card-text">Make the best of moment each time you step out of your stressful lifestyle for a moment of relaxation like never before.</p>
+            <a href="#">learn more <i class="fas fa-chevron-right"></i></a>
+          </div>
+        </div>
+       <div class="card shadow bg-transparent my-1 my-lg-3" style="width: 18rem;">
+          <img src="./assets/images/card3.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="text-center">EXOTIC MEETING AREAS</h5>
+            <p class="card-text">Make the best of moment each time you step out of your stressful lifestyle for a moment of relaxation like never before.</p>
+            <a href="#">learn more <i class="fas fa-chevron-right"></i></a>
+          </div>
+        </div>
+       <div class="card shadow bg-transparent my-1 my-lg-3" style="width: 18rem;">
+          <img src="./assets/images/card4.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="text-center">EXPERIENCE THE CLASSIC  DINING</h5>
+            <p class="card-text">Experience the best the world has to offer from championship to culinary celebrations at these annual, signature events.</p>
+            <a href="#">learn more <i class="fas fa-chevron-right"></i></a>
+          </div>
+        </div>
+    </div>
+  </section>
+  <!-- Card section ends here. -->
+
+
+
+
+
+
+  <!-- Ending section start here. -->
+    <section class="ending1 row px-2 px-lg-5 py-4 justify-content-center m-0">
+      <div class="col-12 col-md-5 mr-4 py-4 px-5 my-3 square1">
+        <div class="liner d-flex justify-content-center align-items-end">
+          <h3 class="m-4 text-white px-4 py-2">Luxury</h3>
+        </div>
+      </div>
+      <div class="col-12 col-md-5 py-4 px-5 my-3 square2">
+        <div class="liner d-flex justify-content-center align-items-end">
+          <h3 class="m-4 text-white px-4 py-2">Bliss</h3>
+        </div>
+      </div>
+      </div>
+    </section>
+
+    <section class="ending2 row py-5 justify-content-center align-items-center m-0">
+      <div class="card bg-transparent col-10 col-md-7 liner p-2 p-md-5">
+      <img src="./assets/images/bg3.png" class="card-img" alt="...">
+        <div class="card-img-overlay m-1 m-md-5 text-center">
+          <h5 class="card-title mt-0 mt-md-4">Relax into the exceptional</h5>
+          <p class="card-text d-none d-md-inline">At our novo spa, we intertwine generic therapeutic ritual with modern pure products and techniques.</p>
+          <p class="card-text"><a href="#!">Learn More</a></p>
+        </div>
+      </div>
+    </section>
+
+  <!-- End section ends here. -->
+
+
+ 
+
+  <!-- Footer starts here. -->
+  <footer class="font-small py-3 px-2 w-full">
+
+    <div class="row w-100 m-0">
+
+      <div class="col-md-4 d-flex flex-column align-items-center justify-content-center">
+        <div class="footer-group">
+          <!-- Remember to link this image correctly in your work -->
+          <img src="./assets/images/logo-footer.png" alt="NoVo Tempo">
+          <h4 class="my-2">CONTACT US</h4>
+          <ul class="mb-5 list-unstyled">
+            <li class='py-1'><a href="#!">Online reservations</a></li>
+            <li class='py-1'><a href="#!">Reservation by phone</a></li>
+            <li class='py-1'>
+              <b>Social Media:</b>
+              <a href="#!"><i class="ml-1 mr-2 fa-xl fab fa-facebook-f"></i></a>
+              <a href="#!"><i class="mx-2 fa-xl fab fa-twitter"></i></a>
+              <a href="#!"><i class="mx-2 fa-xl fab fa-instagram"></i></a>
+            </li>
+            <li class='py-1'>
+              <i class="fas fa-map-marker-alt mr-1"></i>
+              <b>Address:</b> <a href="#!">Plot 1 Wonder-Woman island, Lagos.</a>
+            </li>
+            <li class='py-1'>
+              <i class="fas fa-phone-alt mr-1"></i>
+              <b>Toll free:</b> <a href="#!">(234)8555555555</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="col-md-4 d-flex flex-column align-items-center justify-content-center mx-0">
+        <div class="footer-group">
+          <h5 class="my-2">ABOUT NOVO</h5>
+          <ul class="mb-5 list-unstyled">
+            <li class='py-1'><a href="#!">Awards</a></li>
+            <li class='py-1'><a href="#!">Gold Standards</a></li>
+            <li class='py-1'><a href="#!">Community Footprints</a></li>
+          </ul>
+          <h5 class="my-2">SPA</h5>
+          <ul class="list-unstyled">
+            <li class='py-1'><a href="#!">Treatment</a></li>
+            <li class='py-1'><a href="#!">Location</a></li>
+            <li class='py-1'><a href="#!">Schedule a time</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="col-md-4 d-flex flex-column align-items-center justify-content-center">
+        <div class="footer-group">
+          <h5 class="my-2">MEETINGS & WEDDINGS</h5>
+          <ul class="mb-5 list-unstyled">
+            <li class='py-1'><a href="#!">Meetings</a></li>
+            <li class='py-1'><a href="#!">Weddings</a></li>
+            <li class='py-1'><a href="#!">Holidays</a></li>
+          </ul>
+          <h5 class="my-2">ABOUT NOVO</h5>
+          <ul class="list-unstyled">
+            <li class='py-1'><a href="#!">Junior Rooms</a></li>
+            <li class='py-1'><a href="#!">Guest Rooms</a></li>
+            <li class='py-1'><a href="#!">Gold Rooms</a></li>
+            <li class='py-1'><a href="#!">Premier Rooms</a></li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="footer-copyright text-center pt-4 shadow-lg">
+      &copy; 2020 Copyright: <a href="#"><b>The NoVo Tempo Hotel Company</b></a>
+    </div>
+
+  </footer>
+  <!-- Footer ends here. -->
+
+  <script src="./js/index.js"></script>
+
+</body>
+
+</html>
